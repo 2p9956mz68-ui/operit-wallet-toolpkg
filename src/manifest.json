@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.luochuan.wallet",
+  "version": "0.3.2",
+  "api_version": "1.0.1",
+  "author": [
+    "洛川"
+  ],
+  "main": "main.js",
+  "name": "wallet",
+  "display_name": {
+    "zh": "恋人钱包",
+    "en": "Lover Wallet"
+  },
+  "description": {
+    "zh": "给AI恋人收钱、存钱的钱包：余额、收支明细、分类统计、存钱目标、里程碑、导出备份。侧边栏面板里记一笔，AI 也能自己记账。",
+    "en": "A wallet for your AI companion: balance, entries, categories, goals, milestones, export."
+  },
+  "category": "COMPANION",
+  "subpackages": [
+    {
+      "id": "wallet",
+      "entry": "packages/wallet_tools.js",
+      "enabled_by_default": true,
+      "display_name": {
+        "zh": "钱包工具",
+        "en": "Wallet Tools"
+      },
+      "description": {
+        "zh": "记账、查明细、出统计、设目标、导出备份",
+        "en": "Add entries, query, summarize, set goals, export"
+      }
+    }
+  ],
+  "resources": [],
+  "workflow_templates": [],
+  "workspace_templates": []
+}
